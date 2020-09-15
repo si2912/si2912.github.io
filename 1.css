@@ -20,6 +20,12 @@ li.nav-item{
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top{
     background: white;
 }
+a.navbar-brand{
+    padding: 0;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
 
 @media (max-width:576px){
     *{
@@ -40,9 +46,25 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top{
     }
 }
 
-
-
-
+.khoitt1{
+    height: 100%;
+    width: 100%;
+    background: #e9585f;
+    position: relative;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+}
+.khoitt1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #e4585b;
+}
 
 
 

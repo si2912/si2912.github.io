@@ -141,23 +141,32 @@ span.motaqt{
     margin-bottom: 55px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.xuong{
+    width: 40px;
+    height: 80px;
+    border: 1px solid white;
+    position: absolute;
+    left: 50%;
+    border-radius: 30px;
+    bottom: 2%;
+    margin-left: -20px;
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.xuong:hover{
+    bottom: 4%;
+}
+.xuong::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background: white;
+    left: 50%;
+    bottom: 67%;
+    margin-left: -2px;
+}
 
 
 
